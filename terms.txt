@@ -22,6 +22,6 @@ The lines that are used in technical drawings are called the alphabet of lines.
 Technology system is when parts work together to achieve a common goal.
 When using CNC machine you must have x, y, & z axis to show direction with Cartesian.
 Battery is a portable power source.
-Engineerings are expected to stay up-to-date with the current technologies.
+Engineers are expected to stay up-to-date with the current technologies.
 Engineers communicate with verbal, written, and CAD communication.
 The first step in the Engineering design process is define the problem.
