@@ -1,5 +1,5 @@
 # console-review
-Console based term review written in Python for quick, cram-worthy study sessions. Bare bones only.
+Console based term review written in Python for quick, cram-worthy study sessions. Bare bones only.  
 [Demo](https://rockwillck.github.io/console-review/demo.html)
 ## Downloading the Code
 `git clone "https://github.com/rockwillck/console-review"`
