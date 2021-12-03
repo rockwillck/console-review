@@ -27,7 +27,8 @@ def gen_quiz(terms, fix:bool=True, includeSimple:bool=False):
             term = cards[0]
             termList = term.split(" ")
             if not includeSimple:
-                while True:
+                i = 0
+                while i < 100:
                     x = True
                     remWordIndex = random.randint(0, len(term.split(" ")) - 1)
                     for word in oneonethousand:
@@ -35,6 +36,7 @@ def gen_quiz(terms, fix:bool=True, includeSimple:bool=False):
                             x = False
                     if x == True:
                         break
+                    i += 1
             else:
                 remWordIndex = random.randint(0, len(term.split(" ")) - 1)
             remWord = termList[remWordIndex]
