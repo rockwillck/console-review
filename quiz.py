@@ -1,10 +1,6 @@
 import re
 import random
 
-f = open("terms.txt", "r")
-terms = f.read()
-f.close()
-
 f = open("1-1000.txt", "r")
 oneonethousand = f.read().split("\n")
 f.close()
@@ -14,7 +10,10 @@ for word in oneonethousand:
     oneonethousand[i] = word.lower()
     i += 1
 
-def gen_quiz(terms, fix:bool=True, includeSimple:bool=False):
+def gen_quiz(termsFile:str="terms", fix:bool=True, includeSimple:bool=False):
+    f = open(f"{termsFile}.txt", "r")
+    terms = f.read()
+    f.close()
     cont = True
     while cont:
         if fix:
@@ -65,4 +64,4 @@ def gen_quiz(terms, fix:bool=True, includeSimple:bool=False):
         contInput = input("Play another round? ").lower()
         cont = False if contInput != "y" and contInput != "yes" else True
 
-gen_quiz(terms)
+gen_quiz("terms2")
