@@ -5,7 +5,16 @@ f = open("terms.txt", "r")
 terms = f.read()
 f.close()
 
-def gen_quiz(terms, fix:bool=True):
+f = open("1-1000.txt", "r")
+oneonethousand = f.read().split("\n")
+f.close()
+
+i = 0
+for word in oneonethousand:
+    oneonethousand[i] = word.lower()
+    i += 1
+
+def gen_quiz(terms, fix:bool=True, includeSimple:bool=False):
     cont = True
     while cont:
         if fix:
@@ -16,8 +25,18 @@ def gen_quiz(terms, fix:bool=True):
         random.shuffle(cards)
         while len(cards) > 0:
             term = cards[0]
-            remWordIndex = random.randint(0, len(term.split(" ")) - 1)
             termList = term.split(" ")
+            if not includeSimple:
+                while True:
+                    x = True
+                    remWordIndex = random.randint(0, len(term.split(" ")) - 1)
+                    for word in oneonethousand:
+                        if (word in termList[remWordIndex].lower()) or (termList[remWordIndex].lower() in word):
+                            x = False
+                    if x == True:
+                        break
+            else:
+                remWordIndex = random.randint(0, len(term.split(" ")) - 1)
             remWord = termList[remWordIndex]
             termList[remWordIndex] = "_____"
             termInputStr = ""

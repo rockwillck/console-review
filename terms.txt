@@ -4,7 +4,7 @@ CIM = Computer Integrated Manufacturing
 CNC = Computer Numeric Control
 A keyboard, mouse, and touchscreen are examples of input devices.
 The metric system is the most common measurement system used around the world.
-Always secure your work before you drill on the drill press.
+Always secure your work before you drill on the drill press. (Use a clamp.)
 The first coat of paint is called primer.
 A culvert is a tunnel for water, it is not classified as a bridge.
 3d printers create three-dimensional objects by adding layers of plastic.
@@ -13,15 +13,33 @@ When drawing on AutoCad, in order to duplicate an object several times use copy 
 Environmental engineers design solar panels and windmills.
 In autocad, erase command is used to remove unwanted lines.
 Abrasive = sand paper.
-The band saw always cuts on the down stroke direction.
+The bandsaw always cuts on the down stroke direction and releases on the up stroke direction.
 The ability to make identical parts to work without getting tired and to work in dangerous situations are all advantages of a CNC machine.
 All CNC Machines/Robots operate from a home position.
 Robots can be used to do repetitive and dangerous jobs.
 The smoothest grit of sand paper we will use in the shop/lab is 400.
-The lines that are used in technical drawings are called the alphabet of lines.
+The lines that are used in technical drawing are called the alphabet of lines.
 Technology system is when parts work together to achieve a common goal.
-When using CNC machine you must have x, y, & z axis to show direction with Cartesian.
+When using a CNC machine you must have the x, y & z axes to show direction with Cartesian.
 Battery is a portable power source.
 Engineers are expected to stay up-to-date with the current technologies.
 Engineers communicate with verbal, written, and CAD communication.
-The first step in the Engineering design process is define the problem.
+The 1st step in the Engineering design process is to define the problem (identify the problem).
+Offset command in autocad is a command used to duplicate a line to a specific distance from the origin.
+Order of design process: Identify the problem, Brainstorm and sketch, Choose a solution, Construct prototype
+Engineers’ jobs are as follows: Provide technical and managerial leadership, Plan structures and highways, Are responsible for design and development
+A sketch is a drawing with pencil and paper.
+A prosthetic is designed by a biomedical engineer.
+Visible line shows surface and outline edge of an object.
+A full size model of a product that functions is called a prototype.
+Civil engineers design and construct public works.
+Hidden lines represent an edge or feature that is not visible in a view.
+Orthographic drawing has all the views such as top, right side, and front.
+Electrical engineers work on electronic devices and mechanical engineers work on machines.
+A tool that is used to draw a circle is called a compass.
+It is the responsibility of the students to clean the shop after using the machines.
+Safety is the priority in the shop.
+The bandsaw can be used to cut straight and light curves.
+When picking up heavy items, pick up with your legs not with your back.
+When working on the machine make sure to remove your jewelry or watch.
+Painting booth is the place to do any painting in the shop.
